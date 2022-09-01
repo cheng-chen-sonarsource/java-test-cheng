@@ -4,31 +4,10 @@ import java.util.regex.Pattern;
 
 public class BuggyCheng 
 {
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
     public int getSomeLove(int love)
     {
-        love = 20220525;    //assgnment of function argument before using        
-        int love2 = 202222
-        love = love2;    //self-assignment
+        love = 20220525;    //assgnment of function argument before using                
+        love = love;    //self-assignment
 
         Pattern.compile("(?=a)b"); // Noncompliant, the same character can't be equal to 'a' and 'b' at the same time
 

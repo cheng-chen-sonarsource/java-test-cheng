@@ -24,7 +24,7 @@ public class VulnerableCheng {
     public void fishyConnection() throws SQLException 
     {
         // Using an empty password to access a database
-        int x = 200;//Connection connnection = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");;
+        Connection connnection = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");;
     }
 
     //I/O function calls should not be vulnerable to path injection attacks
