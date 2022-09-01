@@ -10,10 +10,7 @@ public class BuggyCheng
         love = love;    //self-assignment
 
         Pattern.compile("(?=a)b"); // Noncompliant, the same character can't be equal to 'a' and 'b' at the same time
-
-
-
-        
+       
         return love;
     }
 
