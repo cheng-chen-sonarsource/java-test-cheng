@@ -20,14 +20,11 @@ import com.mongodb.MongoClient;
 import org.apache.commons.io.FileUtils;
 
 
-
-
-
 public class VulnerableCheng {
     public void fishyConnection() throws SQLException 
     {
         // Using an empty password to access a database
-        // Connection connnection = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");;
+        Connection connnection = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");;
     }
 
     //I/O function calls should not be vulnerable to path injection attacks
