@@ -31,5 +31,13 @@ public class App
         }
         
         System.out.println( "Hello World! I got some love:" + love);
+
+        try{
+            anotherCheng.fishyConnection();  // calls a vulnerable function
+            anotherCheng.nosqlInjection(null, null);
+        }
+        catch (Exception e) {
+            System.out.println("I catched you...");
+        }
     }
 }

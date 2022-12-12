@@ -40,6 +40,20 @@ public class VulnerableCheng {
         }
     }
 
+
+      public void anotherPathInjection(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String file = req.getParameter("file");
+    
+        File fileUnsafe = new File(file);
+        try {
+          FileUtils.forceDelete(fileUnsafe); // Noncompliant
+        }
+        catch(IOException ex){
+          System.out.println (ex.toString());
+        }
+    }
+
+
     //Dynamic code execution should not be vulnerable to injection attacks
     protected void codeInjection(HttpServletRequest req, HttpServletResponse resp) throws Exception {
       String input = req.getParameter("input");
