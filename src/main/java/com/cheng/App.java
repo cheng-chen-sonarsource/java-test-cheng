@@ -30,7 +30,11 @@ public class App
             System.out.println("this is the end of the world.");
         }
         
+        //System.out.println( "Hello World! I got some love:" + love);
+        //System.out.println( "Hello World! I got some love:" + love);
+        //System.out.println( "Hello World! I got some love:" + love);
         System.out.println( "Hello World! I got some love:" + love);
+        //System.out.println( "Hello World! I got some love:" + love);
 
         try{
             anotherCheng.fishyConnection();  // calls a vulnerable function
