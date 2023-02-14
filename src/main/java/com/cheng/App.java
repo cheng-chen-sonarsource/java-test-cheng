@@ -32,8 +32,12 @@ public class App
         
         //System.out.println( "Hello World! I got some love:" + love);
         //System.out.println( "Hello World! I got some love:" + love);
+        // Here we start something new
         //System.out.println( "Hello World! I got some love:" + love);
+        //System.out.println( "Hello World! I got some love:" + love);
+        // Here we start something new
         System.out.println( "Hello World! I got some love:" + love);
+        //System.out.println( "Hello World! I got some love:" + love);
         //System.out.println( "Hello World! I got some love:" + love);
 
         try{
